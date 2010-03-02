@@ -1,6 +1,6 @@
 #summary Sidebar Menu for the wiki
 #labels SidebarMenu
 
-#sidebar
+#sidebar SidebarMenu
 *[ColdFusion ColdFusion]
 *[GoogleAPI Google API]
