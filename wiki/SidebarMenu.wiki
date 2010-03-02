@@ -1,5 +1,6 @@
 #summary Sidebar Menu for the wiki
 #labels SidebarMenu
-
-  * [ColdFusion ColdFusion]
+  * Languages
+    * [ColdFusion ColdFusion]
+    * [JavaScript JavaScript]
   * [GoogleAPI Google API]
