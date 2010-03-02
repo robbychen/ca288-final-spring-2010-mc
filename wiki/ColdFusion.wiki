@@ -1,5 +1,5 @@
 #labels ColdFusion,Adobe
-# Sidebar
+#Sidebar
 *[ColdFusion]
 
 Adobe ColdFusion is a proprietary scripting language developed by Adobe. It is free for development use.
