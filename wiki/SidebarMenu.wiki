@@ -4,4 +4,4 @@
     * [ColdFusion ColdFusion]
     * [JavaScript JavaScript]
   * [GoogleAPI Google API]
-  * [GMapjQueryPlugin] GMap jQuery Plugin Download URL
+  * [GMapjQueryPlugin GMap jQuery Plugin Download URL]
