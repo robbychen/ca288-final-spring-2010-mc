@@ -35,6 +35,7 @@
 			google.load("jquery", "1");
 			google.load("maps", "2");
 		</script>
+		<!--- Download this plugin at http://gmap.nurtext.de/download.html --->
 		<script src="scripts/jquery.gmap.js"></script>
 		<script>
 			$(document).ready(function() {
