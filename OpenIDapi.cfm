@@ -51,15 +51,16 @@
 		<p>
 		<!--- AJAX Sign in link for the RPX API --->
 		<cfif NOT isDefined("cookie.identifier")>
-			<a class="rpxnow" onclick="return false;"href="https://ca288-final-demo.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2F160.253.0.40%2FStudents%2FStudents%2F0111%2FOpenIDapi.cfm"> Sign In </a>
+			<a class="rpxnow" onClick="return false;"href="https://ca288-final-demo.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2F160.253.0.40%2FStudents%2FStudents%2F0111%2FOpenIDapi.cfm"> Sign In </a>
 		<cfelse>
 			<cfoutput>
 				<cfif qGetInfo.RecordCount EQ 0>
-					Welcome,
+					Welcome, #accountInfos.profile.name.formatted#
 				<cfelse>
 					Welcome back,
+				 #qGetInfo.FName# #qGetInfo.LName#
 				</cfif>
-				 #qGetInfo.FName# #qGetInfo.LName# <a href="?sign=out">Sign Out</a>
+                 <a href="?sign=out">Sign Out</a>
 			</cfoutput>
  		</cfif>
 		</p>
